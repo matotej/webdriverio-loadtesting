@@ -46,8 +46,8 @@ exports.config = {
     // https://docs.saucelabs.com/reference/platforms-configurator
     //
     // Multiple browser capabilities
-    capabilities: {
-    /*    browserH1: {
+    capabilities: {/*
+        browserH1: {
             capabilities: {
                 browserName: 'chrome',
                 'goog:chromeOptions': {
@@ -157,7 +157,7 @@ exports.config = {
             capabilities: {
                 browserName: 'chrome',
             }
-        },
+        },/*
         browser4: {
             capabilities: {
                 browserName: 'chrome',
@@ -237,9 +237,10 @@ exports.config = {
             capabilities: {
                 browserName: 'chrome',
             }
-        },
+        },*/
     },
-    /*capabilities: [{
+    /*
+    capabilities: [{
     
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
@@ -247,9 +248,6 @@ exports.config = {
         maxInstances: 5,
         //
         browserName: 'chrome',
-        'goog:chromeOptions': {
-            headless: true
-        },
         acceptInsecureCerts: true
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
